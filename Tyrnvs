@@ -1,0 +1,15 @@
+# Change the current working directory to your local repository
+cd projects/my-project
+
+# Create a new Git repository
+git init
+
+# Add all of your current files to the repository and commit them
+git add .
+git commit -m "Initial commit"
+
+# Connect your local repository to your remote repository on GitHub
+git remote add origin [1](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository)
+
+# Push your changes from your local repository to your remote repository
+git push origin master
